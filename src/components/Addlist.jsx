@@ -1,7 +1,8 @@
 // import { useSelector } from "react-redux"
 import { useSelector, useDispatch } from 'react-redux'
 import { addlist , UpdateStatus, updatetask } from '../redux-setup/sclice'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import "./addlist.css"
 
 console.log(typeof (addlist))
 
@@ -23,6 +24,9 @@ export default function Addlist() {
        }
     }
     function addtask() {
+        // if(!task){
+        //     return null
+        // }
         if(buttonStatus){
          dispatch(updatetask(task))
         }else{
@@ -41,7 +45,8 @@ export default function Addlist() {
                 settask(e.target.value)
                 console.log("jj", task)
             }} />
-            <button onClick={addtask}>{buttonStatus == null ? "add" : "update"}</button>
+            <button className='addd'
+             onClick={addtask}>{buttonStatus == null ? "add" : "update"}</button>
         </div>
     )
 }

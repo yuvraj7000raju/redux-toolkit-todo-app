@@ -1,0 +1,26 @@
+.add{
+
+    max-width: 90vw;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 2px;
+    
+}
+input{
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: rgb(76, 114, 26);
+}
+.addd{
+    height: 40px;
+    background-color: rgb(73, 73, 185);
+    color: white;
+    font-size: large;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid black;
+}

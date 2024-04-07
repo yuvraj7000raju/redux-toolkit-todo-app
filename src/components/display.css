@@ -1,0 +1,26 @@
+.list{
+    margin-top: 5px;
+    width: 80vw;
+    max-width: 1000px;
+    color: white;
+}
+.task-container{
+    padding: 3px;
+    margin: 2px;
+    background-color: rgb(50, 70, 70);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.btn{
+    height: 30px;
+    margin-right: 5px;
+    background-color: rgb(147, 226, 43);
+    border-radius: 10px;
+    border: 1px solid;
+}
+.btn:hover{
+    background-color: bisque;
+}
